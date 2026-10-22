@@ -1,2 +1,2 @@
 # Project
-This website lists the places I've visited for travelers to plan their trips
+This website lists information about my fraternity, Phi Sigma Pi
