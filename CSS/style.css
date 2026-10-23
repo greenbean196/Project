@@ -1,6 +1,9 @@
 * {
     margin: 0;
     font-family: Arial;
+    a:hover {
+        color: gold;
+    }
 }
 
 body {
@@ -31,9 +34,6 @@ nav {
                     height: 100px;
                 }
             }
-            a:hover {
-                color: gold;
-            }
         }
     }
 }
@@ -61,9 +61,6 @@ main {
             margin: 20px;
             a {
                 color: white;
-            }
-            a:hover {
-                color: gold;
             }
         }
         aside {
@@ -128,6 +125,46 @@ main {
         img {
             height: 500px;
             margin-bottom: 20px;
+        }
+        aside {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            padding-left: 150px;
+            padding-right: 150px;
+            img {
+                height: 300px;
+            }
+        }
+        div {
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: #4E2582;
+            transform: rotate(-45deg);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            bottom: 50px;
+            left: 30px;
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            p {
+                height: 150px;
+                width: 150px;
+                background-color: #4E2582;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 10px;
+            }
         }
     }
 }
