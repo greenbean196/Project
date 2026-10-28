@@ -69,6 +69,9 @@ main {
             a {
                 color: white;
             }
+            a:hover {
+                color: gold;
+            }
         }
         aside {
             display: flex;
