@@ -41,6 +41,8 @@ nav {
 main {
     margin-top: 100px;
     h1 {
+        display: flex;
+        justify-content: center;
         color:#4E2582;
         padding: 20px;
     }
@@ -134,6 +136,8 @@ main {
         }
         section {
             display: flex;
+            flex-direction: column;
+            align-items: center;
             flex-wrap: wrap;
             gap: 20px;
             justify-content: center;
